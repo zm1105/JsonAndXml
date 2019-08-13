@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        var person = {"name": "张三", "age": 23, "gender": true};
+        //获取name的值   张三
+        var name = person.name;
+        var name1 = person["name"];
+
+        var persons = {
+            "persons": [{"name": "张三", "age": 23, "gender": true},
+                        {"name": "李四","age": 24,  "gender": false},
+                        {"name": "王五", "age": 25, "gender": true}]
+                       }
+        //获取name的值   王五
+        var name2 = persons.persons[2].name;
+
+        var ps=[{"name": "张三", "age": 23, "gender": true},
+                {"name": "李四","age": 24,  "gender": false},
+                {"name": "王五", "age": 25, "gender": true}
+               ]
+        //获取name的值    李四
+        var p = ps[1].name;
+    </script>
+</head>
+<body>
+
+</body>
+</html>
