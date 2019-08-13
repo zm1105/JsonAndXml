@@ -36,9 +36,7 @@ public class JsonTest02 {
         ObjectMapper mapper = new ObjectMapper();
         String s = mapper.writeValueAsString(people);
         System.out.println(s);//[{"name":"张三","gender":"男","age":23,"birthday":"2019-08-13"},
-                              // {"name":"张三","gender":"男","age":23,"birthday":"2019-08-13"},
-                              // {"name":"张三","gender":"男","age":23,"birthday":"2019-08-13"}]
-
-
+        // {"name":"张三","gender":"男","age":23,"birthday":"2019-08-13"},
+        // {"name":"张三","gender":"男","age":23,"birthday":"2019-08-13"}]
     }
 }

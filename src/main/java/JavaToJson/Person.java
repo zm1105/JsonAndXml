@@ -9,7 +9,7 @@ public class Person {
     private String gender;
     private int age;
 
-   // @JsonIgnore//忽略该属性
+    // @JsonIgnore//忽略该属性
     @JsonFormat(pattern = "yyyy-MM-dd")
     private Date birthday;
 
