@@ -6,7 +6,6 @@ import java.util.List;
 
 public class JsonUtil {
 
-
     private static final ObjectMapper MAPPER = new ObjectMapper();
 
     /**
@@ -21,7 +20,6 @@ public class JsonUtil {
         }
         return null;
     }
-
 
     /**
      * 将Json转化为对象
