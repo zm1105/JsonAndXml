@@ -18,6 +18,7 @@ public class Person {
     }
 
     public void setBirthday(Date birthday) {
+
         this.birthday = birthday;
     }
 
@@ -26,6 +27,7 @@ public class Person {
     }
 
     public void setName(String name) {
+
         this.name = name;
     }
 
@@ -34,6 +36,7 @@ public class Person {
     }
 
     public void setGender(String gender) {
+
         this.gender = gender;
     }
 
