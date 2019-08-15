@@ -14,6 +14,6 @@ public class JsonTest03 {
 
         ObjectMapper mapper = new ObjectMapper();
         String s = mapper.writeValueAsString(map);
-        System.out.println(s);
+        System.out.println(s);//{"gender":"男","name":"张三","age":23}
     }
 }

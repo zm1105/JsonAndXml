@@ -27,7 +27,7 @@ public class JsonTest01 {
          * writevalueAsString(obj):将对象转为字符串
          */
         String s = mapper.writeValueAsString(p);
-        System.out.println(s);//{"name":"张三","gender":"男","age":23}
+        System.out.println(s);//{"name":"张三","gender":"男","age":23,"birthday":"2019-08-15"}
         mapper.writeValue(new File("D:\\a.txt"), p);
         mapper.writeValue(new FileWriter("D:\\b.txt"), p);
 

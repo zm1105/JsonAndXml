@@ -11,5 +11,8 @@ public class JsonTest04 {
         ObjectMapper mapper = new ObjectMapper();
         Person person = mapper.readValue(json, Person.class);
         System.out.println(person);//Person{name='张三', gender='男', age=23}
+
+        String name = person.getName();
+        System.out.println(name);
     }
 }
