@@ -12,15 +12,15 @@ public class JsonUtil {
     /**
      * 将对象转换成Json字符串
      */
-        public static String objectToJson(Object data) {
-            try {
-                String string = MAPPER.writeValueAsString(data);
-                return string;
-            } catch (JsonProcessingException e) {
-                e.printStackTrace();
-            }
-            return null;
+    public static String objectToJson(Object data) {
+        try {
+            String string = MAPPER.writeValueAsString(data);
+            return string;
+        } catch (JsonProcessingException e) {
+            e.printStackTrace();
         }
+        return null;
+    }
 
 
     /**
@@ -36,7 +36,9 @@ public class JsonUtil {
         return null;
     }
 
-    /**将Json转化成pojo对象 List*/
+    /**
+     * 将Json转化成pojo对象 List
+     */
     public static <T> List<T> jsonToList(String jsonData, Class<T> beanType) {
         JavaType javaType = MAPPER.getTypeFactory().constructParametricType(List.class, beanType);
         try {
@@ -45,18 +47,6 @@ public class JsonUtil {
         } catch (Exception e) {
             e.printStackTrace();
         }
-
         return null;
     }
 }
-//
-
-
-
-//    }
-
-
-
-
-
-//

@@ -14,13 +14,8 @@ public class Test {
 
 
         String json = "{\"name\":\"张三\",\"gender\":\"男\",\"age\":20,\"birthday\":\"2019-08-15\"}";
-        JsonUtil.jsonToPojo(json,Person.class);//{"name":"张三","gender":"男","age":20,"birthday":"2019-08-15"}
-
-
-
-
+        JsonUtil.jsonToPojo(json, Person.class);//{"name":"张三","gender":"男","age":20,"birthday":"2019-08-15"}
     }
-
 }
 
 
