@@ -27,7 +27,7 @@ public class JsonTest02 {
         p2.setGender("男");
         p2.setBirthday(new Date());
 
-        List<Person> people = new ArrayList<>();
+        List<Person> people = new ArrayList<Person>();
         people.add(p);
         people.add(p1);
         people.add(p2);

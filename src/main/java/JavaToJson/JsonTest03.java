@@ -7,7 +7,7 @@ import java.util.*;
 
 public class JsonTest03 {
     public static void main(String[] args) throws IOException {
-        Map<String, Object> map = new HashMap<>();
+        Map<String, Object> map = new HashMap<String, Object>();
         map.put("name", "张三");
         map.put("age", 23);
         map.put("gender", "男");
