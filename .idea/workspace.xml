@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36692c90-6877-4727-a00a-14bcfdf759ed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/XML/JsoupDemo01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/student.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/XML/JsoupDemo01.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/student.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/XML/JsoupDemo02.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaToJson/JsonTest02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaToJson/JsonTest02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaToJson/JsonTest03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaToJson/JsonTest03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaToJson/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaToJson/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JsonUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JsonUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/student.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/student.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/XML/JsoupDemo01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/XML/JsoupDemo01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/student.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/student.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -66,17 +61,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+            <state relative-caret-position="449">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/XML/JsoupDemo01.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="449">
+              <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/XML/JsoupDemo01.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/XML/JsoupDemo02.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="52" lean-forward="true" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+            <state relative-caret-position="700">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -87,8 +94,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/student.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+            <state relative-caret-position="220">
+              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -160,11 +167,13 @@
         <option value="$PROJECT_DIR$/src/main/java/JavaToJson/Person.java" />
         <option value="$PROJECT_DIR$/src/main/java/XML/nema.xml.fxml" />
         <option value="$PROJECT_DIR$/src/main/java/XML/name.tld" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/student" />
         <option value="$PROJECT_DIR$/src/main/java/JavaToJson/JsonTest03.java" />
         <option value="$PROJECT_DIR$/src/main/java/JavaToJson/JsonTest02.java" />
         <option value="$PROJECT_DIR$/src/student.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/student.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/XML/JsoupDemo02.java" />
         <option value="$PROJECT_DIR$/src/main/java/XML/JsoupDemo01.java" />
       </list>
     </option>
@@ -227,7 +236,30 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaToJson" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JsonAndXml" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JsonAndXml" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="JsonToJava" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JsonAndXml" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JsonAndXml" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="XML" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JsonAndXml" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JsonAndXml" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -282,7 +314,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JsoupDemo01">
+  <component name="RunManager" selected="Application.JsoupDemo02">
     <configuration name="JsonTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaToJson.JsonTest01" />
       <module name="JsonAndXml" />
@@ -309,12 +341,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JsonTest04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JsonToJava.JsonTest04" />
+    <configuration name="JsoupDemo01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="XML.JsoupDemo01" />
       <module name="JsonAndXml" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JsonToJava.*" />
+          <option name="PATTERN" value="XML.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -322,8 +354,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JsoupDemo01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="XML.JsoupDemo01" />
+    <configuration name="JsoupDemo02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="XML.JsoupDemo02" />
       <module name="JsonAndXml" />
       <extension name="coverage">
         <pattern>
@@ -344,11 +376,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JsoupDemo02" />
         <item itemvalue="Application.JsoupDemo01" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.JsonTest03" />
         <item itemvalue="Application.JsonTest01" />
-        <item itemvalue="Application.JsonTest04" />
       </list>
     </recent_temporary>
   </component>
@@ -368,7 +400,7 @@
       <workItem from="1565839008896" duration="1005000" />
       <workItem from="1565840087125" duration="704000" />
       <workItem from="1565855495283" duration="5321000" />
-      <workItem from="1565915043616" duration="1651000" />
+      <workItem from="1565915043616" duration="7121000" />
     </task>
     <task id="LOCAL-00001" summary="Java转成Json">
       <created>1565665167287</created>
@@ -426,7 +458,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565855840357</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Jsou解析XML文件入门">
+      <created>1565916735996</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1565916735996</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -438,7 +477,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23883000" />
+    <option name="totallyTimeSpent" value="29353000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -451,6 +490,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Capture Tool" order="1" />
@@ -468,7 +508,7 @@
       <window_info anchor="bottom" id="Terminal" order="6" weight="0.3298969" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Find" order="8" weight="0.3298969" />
-      <window_info anchor="bottom" id="Run" order="9" weight="0.48895434" />
+      <window_info anchor="bottom" id="Run" order="9" weight="0.42120767" />
       <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
@@ -494,7 +534,8 @@
     <MESSAGE value="使用jackson编写的json工具类，JsonUtil" />
     <MESSAGE value="修改" />
     <MESSAGE value="格式优化" />
-    <option name="LAST_COMMIT_MESSAGE" value="格式优化" />
+    <MESSAGE value="Jsou解析XML文件入门" />
+    <option name="LAST_COMMIT_MESSAGE" value="Jsou解析XML文件入门" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/web/Jsondemo02.html">
@@ -577,13 +618,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/student.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -621,17 +655,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/student.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        <state relative-caret-position="220">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/XML/JsoupDemo01.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="52" lean-forward="true" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+        <state relative-caret-position="449">
+          <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/XML/JsoupDemo02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
